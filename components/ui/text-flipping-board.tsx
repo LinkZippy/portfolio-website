@@ -8,8 +8,8 @@ const BOARD_ROWS = 6;
 const BOARD_COLS = 22;
 const BASE_COL_DELAY = 30;
 const BASE_ROW_DELAY = 20;
-const BASE_STEP_MS = 55;
-const BASE_FLIP_S = 0.35;
+const BASE_STEP_MS = 35;
+const BASE_FLIP_S = 0.15;
 const BASE_TOTAL_S =
   ((BOARD_COLS - 1) * BASE_COL_DELAY +
     (BOARD_ROWS - 1) * BASE_ROW_DELAY +
